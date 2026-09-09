@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101114" />
+  <title>Z You App Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand-mark">Z</div>
+      <div>
+        <div class="brand">Z You App Store</div>
+        <div class="brand-sub">by Z You Software Solutions</div>
+      </div>
+    </div>
+    <button class="about-btn" id="aboutBtn">About</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">OFFICIAL DOWNLOAD HUB</span>
+        <h1>Z You business and school apps, in one place.</h1>
+        <p>Download Mini Grocery POS and School Face Attendance for Windows and Android. Windows systems include a 7-day free trial, then require a 1-month or 1-year subscription.</p>
+      </div>
+      <div class="hero-badge">
+        <div class="hero-badge-icon">✓</div>
+        <div>
+          <strong>Official releases</strong>
+          <span>From Z You Software Solutions</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="App filters">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search apps..." autocomplete="off" />
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="windows">Windows</button>
+        <button class="filter" data-filter="android">Android</button>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <h2>Apps</h2>
+        <p id="resultCount">Loading apps…</p>
+      </div>
+    </section>
+
+    <section class="app-grid" id="appGrid"></section>
+
+    <section class="empty-state hidden" id="emptyState">
+      <div class="empty-icon">⌕</div>
+      <h3>No apps found</h3>
+      <p>Try another search or platform filter.</p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Z You Software Solutions</strong>
+    <span>Smart software solutions made simple—for every need, idea, and goal.</span>
+  </footer>
+
+  <dialog id="appModal" class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-icon" id="modalIcon"></div>
+    <div class="modal-kicker" id="modalKicker"></div>
+    <h2 id="modalTitle"></h2>
+    <p class="modal-desc" id="modalDesc"></p>
+    <div class="meta-row" id="modalMeta"></div>
+    <div class="modal-actions" id="modalActions"></div>
+  </dialog>
+
+  <dialog id="aboutModal" class="modal about-modal">
+    <button class="modal-close" id="aboutClose" aria-label="Close">×</button>
+    <div class="modal-icon">Z</div>
+    <div class="modal-kicker">Z YOU SOFTWARE SOLUTIONS</div>
+    <h2>About Z You App Store</h2>
+    <p class="modal-desc">This is the official download hub for apps and software created and distributed by Z You Software Solutions.</p>
+    <p class="modal-note">Only downloads marked <strong>Available</strong> can be installed. New releases can be added by updating <code>catalog.js</code>.</p>
+  </dialog>
+
+  <script src="catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
