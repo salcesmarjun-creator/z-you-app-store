@@ -1,0 +1,28 @@
+Z YOU SOFTWARE SOLUTIONS
+7-DAY TRIAL & SUBSCRIPTION GUIDE
+
+APPLIES TO:
+- Z You Mini Grocery POS
+- Z You School Face Attendance
+
+HOW IT WORKS
+1. Download and install/extract the software.
+2. The 7-day free trial starts automatically on first use of the main Windows computer.
+3. You can use the main software during the trial without a paid license key.
+4. After the 7-day trial ends, the main software is locked until a valid subscription key is activated.
+5. Existing inventory, sales, student and attendance data are not intentionally deleted when the trial/subscription expires.
+6. To subscribe or renew, send the Installation ID / Device Code shown by the software to Z You Software Solutions.
+7. Available subscription terms: 1 Month or 1 Year.
+8. Enter the license key supplied by Z You Software Solutions to activate or renew.
+
+DEVICE LICENSING
+- The subscription is bound to the main Windows computer.
+- Mini Grocery POS: the Android barcode scanner is a companion to the licensed/trial Windows POS and does not require a separate subscription.
+- School Face Attendance: the Android attendance/SMS phones are companions to the licensed/trial Windows attendance server and do not require separate subscriptions.
+
+IMPORTANT
+- Re-downloading or normally reinstalling the Windows software does not intentionally restart the 7-day trial.
+- Keep the computer date and time correct. Large backward clock changes can trigger license protection.
+- A new computer normally has a different Installation ID / Device Code and requires a license generated for that computer.
+
+Z You Software Solutions
